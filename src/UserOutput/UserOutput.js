@@ -1,9 +1,16 @@
 import React from 'react';
 
 const UserOutput = (props) =>{
+
+    const style = {
+        color: 'Purple',
+        fontSize: '10vw',
+        fontFamily: 'Impact',
+        fontWeight: 'bold'
+      };
+
     return(
-        <div>
-            <p>{props.username}</p>
+        <div style={style}>
             <p>{props.username}</p>
         </div>  
     )

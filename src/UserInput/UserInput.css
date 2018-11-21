@@ -1,0 +1,12 @@
+.UserInput{
+    width: 60%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 10px auto;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+input:focus {
+    outline: none;
+}
